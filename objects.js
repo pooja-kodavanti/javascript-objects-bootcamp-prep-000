@@ -1,5 +1,5 @@
 
-const playlist = {[artistName]: songTitle};
+var playlist = {[artistName]: songTitle};
 
 const artistName = 'Phil Ochs'
 function updatePlaylist(playlist, artistName, songTitle) {
