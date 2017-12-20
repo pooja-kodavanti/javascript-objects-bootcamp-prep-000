@@ -11,6 +11,7 @@ updatePlaylist()
 function removeFromPlaylist(playlist, artistName) {
   var playlist = {'Kanye': "Gold Digger"}
   const artistName = 'Kanye'
-  delete playlist.'Kanye'
+  delete playlist.artistName
+  return playlist
 }
 removeFromPlaylist()
