@@ -13,6 +13,6 @@ const artistName = 'Kanye'
 function removeFromPlaylist(playlist, artistName) {
   var playlist = {[artistName]: "Gold Digger"}
   var artistName = 'Kanye'
-  delete playlist.artistName
+  delete playlist.'Kanye'
   return playlist
 }
