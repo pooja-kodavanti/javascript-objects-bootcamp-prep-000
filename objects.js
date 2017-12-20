@@ -1,4 +1,4 @@
-var playlist = {};
+var playlist = {artistName: songTitle};
 
 function updatePlaylist(playlist, artistName, songTitle) {
   var artistName = 'Phil Ochs'
