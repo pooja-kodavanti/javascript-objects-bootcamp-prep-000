@@ -2,7 +2,7 @@
 var playlist = {[artistName]: songTitle};
 
 function updatePlaylist(playlist, artistName, songTitle) {
-  var artistName = 'Phil Ochs'
+  const artistName = 'Phil Ochs'
   var songTitle = "Here's to the State of Mississippi"
   return Object.assign({}, playlist, {[artistName]: songTitle})
 }
