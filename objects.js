@@ -9,7 +9,7 @@ function updatePlaylist(playlist, artistName, songTitle) {
 updatePlaylist()
 
 function removeFromPlaylist(playlist, artistName) {
-  var playlist = {'Kanye': "Gold Digger"}
+  var playlist = {[artistName]: "Gold Digger"}
   var artistName = 'Kanye'
   delete playlist.'Kanye'
 }
