@@ -9,10 +9,9 @@ function updatePlaylist(playlist, artistName, songTitle) {
   return Object.assign({}, playlist, {[artistName]: songTitle})
 }
 
-const artistName = 'Kanye'
 function removeFromPlaylist(playlist, artistName) {
-  var playlist = {[artistName]: "Gold Digger"}
+  var playlist = {[artistName]: songTitle}
   var artistName = 'Kanye'
+  var songTitle = "Gold Digger"
   delete playlist.'Kanye'
-  return playlist
 }
